@@ -1,0 +1,23 @@
+// Helper
+@import "./Base/reset.scss";
+
+
+// Base
+@import "./Helper/variables.scss";
+
+// Component
+@import '../scss/Header/Header.scss';
+@import '../scss/Footer/Footer.scss';
+@import '../scss/Banner/Banner.scss';
+@import '../scss/ProductSale/ProductSale.scss';
+@import '../scss/Item/Item.scss';
+@import '../scss/ProductSale/Clock.scss';
+@import '../scss/Button/Button.scss';
+@import '../scss/Post/Post.scss';
+@import '../scss/Button/ButtonBackToTop.scss';
+@import '../scss/FilterProduct/FilterProduct.scss';
+// Layout
+@import '../scss/Post/ProjectProminent.scss';
+@import '../scss/Post/ServiceAdvisory.scss';
+@import '../scss/Product/Product.scss';
+@import '../scss/responsive.scss'

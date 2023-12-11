@@ -1,0 +1,45 @@
+.post-container{
+    display: flex;
+    padding-top: 40px;
+    margin: 40px;
+    gap: 30px;
+}
+.post-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.post-title{
+    font-family: var(--body-font);
+    font-size: var( --title-font-size);
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+
+.post-name{
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.002em;
+    text-align: justified;
+}
+
+.post-text{
+    font-family: var(--body-font);
+    font-size: var(--menu-font-size);
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.002em;
+}
+.button-post .custom-button{
+    color: #000;
+    margin-bottom: 40px;
+    width: 130px;
+}
+.button-text{
+    background-color: #EFEFEF;
+    color: #000;
+    border: 1px solid #EFEFEF;
+}

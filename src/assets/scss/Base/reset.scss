@@ -1,0 +1,41 @@
+//Copyright (c) [2019] - [2023] ECEPVN LLC All Rights Reserved.
+// 
+// License:
+// 
+// See the file "LICENSE" for terms & conditions for usage, and a DISCLAIMER OF
+// ALL WARRANTIES.
+// 
+// @description <CSS Reset>
+// @Huy Nguyen <> <nglehuycontactwork@gmail.com>
+// 
+// 
+// REVISIONS:
+// 26/11/2023: viết css reset  - Huy Nguyen <nglehuycontactwork@gmail.com>
+// 
+/* BASE */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+// border: 1px solid red;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+  
+a {
+    text-decoration: none;
+}

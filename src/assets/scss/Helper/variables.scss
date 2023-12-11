@@ -1,0 +1,24 @@
+//GOOGLE FONT
+// @import url('https://fonts.google.com/specimen/Roboto');
+
+//VARIABLE CSS
+:root{
+    /* COLORS*/
+    --background-header: #FFFFFF;
+    --background-footer: #2A2A2A;
+
+    /* FONT*/
+    --body-font: "Roboto", sans-serif;
+    --title-font-size: 32px;
+    --menu-font-size:14px;
+    --menu-small-font-size:12px;
+}
+    /* BREAKPOINTS*/
+    $breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);

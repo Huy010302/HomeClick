@@ -1,0 +1,92 @@
+@mixin media-breakpoint-up($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+      }
+    } @else {
+      @error "Unknown breakpoint: #{$breakpoint}.";
+    }
+}
+  
+  @mixin media-breakpoint-down($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @media (max-width: map-get($breakpoints, $breakpoint) - 0.02) {
+        @content;
+      }
+    } @else {
+      @error "Unknown breakpoint: #{$breakpoint}.";
+    }
+}
+
+.product-sale{
+    @include media-breakpoint-down(lg){
+        flex-direction: column;
+    }
+
+}
+
+.product-img{
+    @include media-breakpoint-up(lg){
+        width: 712px;
+        height: 450px;
+    }
+}
+
+.design-item-img{
+    @include media-breakpoint-down(xl){
+        width: 110px;
+        height: 110px;
+    }
+}
+
+.design-list{
+    @include media-breakpoint-up(md){
+        display: flex;
+        justify-content: center;
+        gap:150px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    @include media-breakpoint-down(md){
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    @include media-breakpoint-down(sm){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+}
+
+.top-banner-content{
+    @include media-breakpoint-down(sm){
+        flex-direction: column;
+    }
+}
+
+.top-footer-content{
+    color: #fff;
+    @include media-breakpoint-up(lg){
+        align-items: center;
+        gap: 20px;
+    }
+    @include media-breakpoint-down(lg){
+        flex-direction: column;
+        margin-left: 10px;
+        gap:10px;
+        padding:20px;
+    }
+}
+
+.post-container, .post-container {
+    @include media-breakpoint-down(sm){
+        flex-direction: column;
+    }
+}

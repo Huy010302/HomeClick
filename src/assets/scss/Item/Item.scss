@@ -1,0 +1,36 @@
+//Copyright (c) [2019] - [2023] ECEPVN LLC All Rights Reserved.
+// 
+// License:
+// 
+// See the file "LICENSE" for terms & conditions for usage, and a DISCLAIMER OF
+// ALL WARRANTIES.
+// 
+// @description <CSS Article cho trang HomePage>
+// 
+// @Huy Nguyen <> <nglehuycontactwork@gmail.com>
+// 
+// 
+// REVISIONS:
+// 29/11/2023: viết css Article - Huy Nguyen <nglehuycontactwork@gmail.com>
+// 
+.article-post, .collection-post{
+    padding-top: 70px;
+    font-family: var(--body-font);
+    font-size: var(--title-font-size);
+}
+
+.image img{
+    padding-top: 40px;
+    border-radius: 5px;
+}
+
+.title{
+    font-family: var(--body-font);
+    font-size: var(--menu-font-size);
+    font-weight: 700;
+    padding-top: 20px;
+}
+.date,.sku,.price{
+    font-size: var(--menu-small-font-size);
+}
+

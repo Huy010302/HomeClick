@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Xu hướng thiết kế 2022",
+        "img": "../../assets/image/ImgPost1.png",
+        "date": "23/04/2022"
+    },
+    {
+        "id": 2,
+        "title": "Hè tối giản",
+        "img": "../../assets/image/ImgPost2.png",
+        "date": "03/04/2022"
+    },
+    {
+        "id": 3,
+        "title": "Nội thất tối giản",
+        "img": "../../assets/image/ImgPost3.png",
+        "date": "28/02/2022"
+    }
+]

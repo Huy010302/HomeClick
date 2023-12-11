@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "SUMMER COLECTION",
+        "img": "../../assets/image/ImgCollection.png",
+        "code": "SKU: HCB0001",
+        "price": "29.996.000đ"
+    },
+    {
+        "id": 2,
+        "title": "MILANO COLECTION",
+        "img": "../../assets/image/ImgCollection2.png",
+        "code": "SKU: HCB0001",
+        "price": "19.296.000đ"
+    },
+    {
+        "id": 3,
+        "title": "YELLO COLECTION",
+        "img": "../../assets/image/ImgCollection3.png",
+        "code": "SKU: HCB0001",
+        "price": "27.296.000đ"
+    }
+]

@@ -1,0 +1,15 @@
+// Import
+@import './NavMenu.scss';
+@import './SearchBox.scss';
+@import './TopMenu.scss';
+
+.nav-menu{
+    justify-content: space-between;
+}
+.navbar {
+    justify-content: center;
+}
+
+.nav-bar-mobile{
+    padding: 0rem 5rem;
+}

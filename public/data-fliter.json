@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "roomTypes": "Phòng khách",
+        "category": "Sofa 2 chỗ"
+    },
+    {
+        "id": 2,
+        "roomTypes": "Phòng ngủ",
+        "category": "Sofa 2 chỗ"
+    },
+    {
+        "id": 1,
+        "roomTypes": "Phòng ăn",
+        "category": "Sofa 2 chỗ"
+    },
+    {
+        "id": 1,
+        "roomTypes": "Phòng khách",
+        "category": "Sofa 2 chỗ"
+    },
+    {
+        "id": 1,
+        "roomTypes": "Phòng khách",
+        "category": "Sofa 2 chỗ"
+    }
+]

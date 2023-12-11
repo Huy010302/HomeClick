@@ -1,0 +1,127 @@
+//Copyright (c) [2019] - [2023] ECEPVN LLC All Rights Reserved.
+// 
+// License:
+// 
+// See the file "LICENSE" for terms & conditions for usage, and a DISCLAIMER OF
+// ALL WARRANTIES.
+// 
+// @description <CSS Banner cho trang HomePage>
+// 
+// @Huy Nguyen <> <nglehuycontactwork@gmail.com>
+// 
+// 
+// REVISIONS:
+// 26/11/2023: viết css Banner cho HomePage - Huy Nguyen <nglehuycontactwork@gmail.com>
+// 
+// 
+
+.header-banner {
+    position: relative;
+    text-align: center;
+    padding-bottom: 70px;
+  
+    .banner-title {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  
+    .banner-text {
+      position: absolute;
+      top: 170px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  
+    img {
+      width: 100%;
+      height: 600px;
+    }
+  
+    .slick-dots {
+      position: absolute;
+      bottom: 10px;
+      right: 10px; 
+      list-style: none;
+      display: flex !important;
+  
+      li {
+        margin: 0 5px;
+  
+        button {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: #fff;
+          border: 2px solid #fff;
+          transition: all 0.3s;
+  
+          &:hover, &.slick-active {
+            background-color: #F86963;
+            border-color: #F86963;
+          }
+        }
+      }
+    }
+}
+.design-title{
+  font-size: var(--title-font-size);
+  padding-top: 70px;
+  margin: 0px 10px;
+
+}
+
+.design-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.design-item-title{
+  font-size: var(--menu-font-size);
+  padding-top: 20px;
+  color: black;
+  &:hover{
+    color:  #F86963;
+  }
+}
+.top-banner{
+  background-color: #EFEFEF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+}
+
+.top-banner-content{
+  font-size: var(--menu-font-size);
+  margin-left:60px;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: red; 
+}
+

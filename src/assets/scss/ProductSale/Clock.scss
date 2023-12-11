@@ -1,0 +1,53 @@
+//Copyright (c) [2019] - [2023] ECEPVN LLC All Rights Reserved.
+// 
+// License:
+// 
+// See the file "LICENSE" for terms & conditions for usage, and a DISCLAIMER OF
+// ALL WARRANTIES.
+// 
+// @description <Viết css cho component Clock>
+// 
+// @Huy Nguyen <> <nglehuycontactwork@gmail.com>
+// 
+// 
+// REVISIONS:
+// 02/12/2023: viết css cho  component Clock - Huy Nguyen <nglehuycontactwork@gmail.com>
+// 
+
+.clock-container {
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+  }
+  
+  .clock-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.002em; 
+  }
+  
+  .countdown {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-size: 28px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-family: var(--body-font);
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.002em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+  }
+  

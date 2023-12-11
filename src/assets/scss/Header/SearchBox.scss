@@ -1,0 +1,59 @@
+.form-group1 {
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+}
+
+.form-group1 input{
+    padding-left: 15px;
+}
+
+// SearchBox
+.search-box {
+    padding-right: 50px;
+    width: 370px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #DCDCDC;
+    &:hover{
+        border:1px solid  #2A2A2A;
+    }
+}
+
+.icon-search {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+// EmailBox
+.email-box {
+    padding-right: 50px;
+    width: 370px;
+    height: 50px;
+    background-color: #5A5A5A;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    &:hover{
+        border:1px solid  #2A2A2A;
+    }
+    &::placeholder{
+        color: #FFF;
+    }
+}
+
+.search-box-md{
+    width: 557px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #DCDCDC;
+}
+
+
+
+
+  

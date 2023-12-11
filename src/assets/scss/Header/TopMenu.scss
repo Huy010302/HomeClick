@@ -1,0 +1,24 @@
+.top-menu{
+    padding:0px;
+}
+.nav-menu{
+    padding: 0px;
+    padding-top: 10px;
+}
+.menu{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    &:hover{
+        color: #F86963;
+    }
+}
+.icon-item{
+    width: 20px;
+    height: 15px;
+    margin:20px 10px;
+}
+.dashed-line{
+    border: 1px solid #DCDCDC;
+}

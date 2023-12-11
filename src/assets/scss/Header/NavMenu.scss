@@ -1,0 +1,11 @@
+.menu{
+    padding: 0px;
+}
+
+.nav-link{
+    font-size: --menu-font-size;
+    color: black;
+    &:hover{
+        color: #F86963;
+    }
+}

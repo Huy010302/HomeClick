@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "title": "KILLY SOFA",
+        "img": "../../assets/image/imgSofa1.png",
+        "code": "SKU: HCB0001",
+        "price": "29.996.000đ"
+    },
+    {
+        "id": 2,
+        "title": "MILANO SOFA",
+        "img": "../../assets/image/imgSofa2.png",
+        "code": "SKU: HCB0001",
+        "price": "19.296.000đ"
+    },
+    {
+        "id": 3,
+        "title": "LANO SOFA",
+        "img": "../../assets/image/imgSofa3.png",
+        "code": "SKU: HCB0001",
+        "price": "15.296.000đ"
+    },
+    {
+        "id": 4,
+        "title": "LANO SOFA",
+        "img": "../../assets/image/imgSofa4.png",
+        "code": "SKU: HCB0001",
+        "price": "15.296.000đ"
+    },
+    {
+        "id": 5,
+        "title": "MILANO SOFA",
+        "img": "../../assets/image/imgSofa5.png",
+        "code": "SKU: HCB0001",
+        "price": "19.296.000đ"
+    },
+    {
+        "id": 6,
+        "title": "MILANO SOFA",
+        "img": "../../assets/image/imgSofa6.png",
+        "code": "SKU: HCB0001",
+        "price": "19.296.000đ"
+    },
+    {
+        "id": 7,
+        "title": "LANO SOFA",
+        "img": "../../assets/image/imgSofa7.png",
+        "code": "SKU: HCB0001",
+        "price": "15.296.000đ"
+    },
+    {
+        "id": 8,
+        "title": "LANO SOFA",
+        "img": "../../assets/image/imgSofa8.png",
+        "code": "SKU: HCB0001",
+        "price": "15.296.000đ"
+    },
+    {
+        "id": 9,
+        "title": "MILANO SOFA",
+        "img": "../../assets/image/imgSofa9.png",
+        "code": "SKU: HCB0001",
+        "price": "19.296.000đ"
+    },
+    {
+        "id": 10,
+        "title": "MILANO SOFA",
+        "img": "../../assets/image/imgSofa3.png",
+        "code": "SKU: HCB0001",
+        "price": "19.296.000đ"
+    },
+    {
+        "id": 11,
+        "title": "LANO SOFA",
+        "img": "../../assets/image/imgSofa2.png",
+        "code": "SKU: HCB0001",
+        "price": "15.296.000đ"
+    },
+    {
+        "id": 12,
+        "title": "LANO SOFA",
+        "img": "../../assets/image/imgSofa10.png",
+        "code": "SKU: HCB0001",
+        "price": "15.296.000đ"
+    }
+]
