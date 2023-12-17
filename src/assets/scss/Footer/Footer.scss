@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 4rem;
+    padding: 1rem 4rem;
 }
 
 .top-footer-icon{
@@ -59,10 +59,7 @@
 .bottom-footer-item{
     font-size: 12px;
 }
-.button-footer{
-    width: 196px;
-    height: 40px;
-}
+
 .imgBCT{
     justify-content: center;
 }
@@ -72,7 +69,7 @@
 }
 
 .footer-tree{
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .option-text{
@@ -93,4 +90,19 @@
 
 .title img {
     transform: rotate(90deg);
+}
+
+.bottom-footer{
+    color: #EFEFEF;
+}
+
+
+/* Ẩn options mặc định */
+.options {
+    display: none;
+}
+
+/* Hiển thị options khi có class active */
+.options.active {
+    display: block;
 }

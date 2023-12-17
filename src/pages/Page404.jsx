@@ -1,4 +1,3 @@
-// File: Page404.js
 import React from 'react';
 
 const Page404 = () => {

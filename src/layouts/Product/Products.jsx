@@ -32,6 +32,7 @@ import Col from 'react-bootstrap/Col';
 import Item from "../../components/Item/Item"
 import Button from "../../components/Button/Button";
 import FilterProduct from "../../components/FilterProduct/FilterProduct";
+import { Link } from "react-router-dom";
 
 const getImageSrc = (img) => {
     switch (img) {
@@ -89,11 +90,13 @@ class Products extends React.Component {
             <>
                 <Container>
                     <h3 className="product-post">PHÒNG KHÁCH</h3>
-                    <FilterProduct/>
+                    <FilterProduct />
                     <Row>
                         {products.map((product) => (
                             <Col md={3} key={product.code}>
-                                <Item image={getImageSrc(product.img)} title={product.title} date={product.code} price={product.price} isProductList={true} />
+                                <Link to={`/productdetails/${product.id}`}>
+                                    <Item image={getImageSrc(product.img)} title={product.title} date={product.code} price={product.price} isProductList={true} />
+                                </Link>
                             </Col>
                         ))}
                     </Row>

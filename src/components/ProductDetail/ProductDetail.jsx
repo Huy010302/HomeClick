@@ -17,25 +17,21 @@
 import React from "react";
 
 
-function Item(data) {
-    const { image, title, date, sku, price, isProductList = false } = data;
+function ProductDetail(data) {
+    const { image, title, sku, price, isProductDetail = false } = data;
     return (
         <>
             <div className="item d-flex flex-column justify-content-center text-center">
                 <div className="image" style={{
-                    backgroundColor: isProductList ? "#EFEFEF" : null,
-                    width: isProductList ? "276px" : null,
-                    height: isProductList ? "211px" : null,
+                    backgroundColor: isProductDetail ? "#EFEFEF" : null,
+                    width: isProductDetail ? "712px" : null,
+                    height: isProductDetail ? "454px" : null,
                 }}>
                     <img className="img-fluid" src={image} alt="image" />
                 </div>
 
                 <div className="content">
                     <div className="title justify-content-center">{title}</div>
-                    {
-                        date &&
-                        <div className="date">{date}</div>
-                    }
                     {
                         sku &&
                         <div className="sku">{sku}</div>
@@ -52,4 +48,4 @@ function Item(data) {
 
 }
 
-export default Item;
+export default ProductDetail;

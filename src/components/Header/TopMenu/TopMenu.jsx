@@ -14,7 +14,7 @@
 // 25/11/2023: viết và hoàn thành Component TopMenu cho Header - Huy Nguyen <nglehuycontactwork@gmail.com>
 // 
 
-import React from "react";
+import React, { useState } from "react";
 import SearchBox from "../SearchBox/SearchBox";
 import imgTruck from '../../../assets/image/imgTruck.png'
 import imgUser from '../../../assets/image/imgUser.png'
@@ -22,6 +22,7 @@ import imgCart from '../../../assets/image/imgCart.png'
 import imgSearch from '../../../assets/image/imgSearch.png'
 
 function TopMenu() {
+    const [isHovered, setIsHovered] = useState(false);
 
     return (
         <>
@@ -53,8 +54,21 @@ function TopMenu() {
                 </div>
                 <div className="icon-top">
                     <ul className="icon d-flex list-unstyled">
-                        <li ><img className="icon-item img-fluid" src={imgTruck} alt="Truck" /></li>
-                        <li ><img className="icon-item img-fluid" src={imgUser} alt="User" /></li>
+                        <li><img className="icon-item img-fluid" src={imgTruck} alt="Truck" /></li>
+                        <li style={{ position: "relative" }} >
+                            <img className="icon-item img-fluid" src={imgUser} alt="User"
+                                onMouseEnter={() => setIsHovered(true)}
+                                onMouseLeave={() => setIsHovered(false)} />
+                            {isHovered && (
+                                <div className="login-registration">
+                                    <ul className="">
+                                        <li>ĐĂNG KÝ</li>
+                                        <div className="dashed-line"></div>
+                                        <li>ĐĂNG NHẬP</li>
+                                    </ul>
+                                </div>
+                            )}
+                        </li>
                         <li ><img className="icon-item img-fluid" src={imgCart} alt="Cart" /></li>
                     </ul>
                 </div>

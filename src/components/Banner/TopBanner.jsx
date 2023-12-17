@@ -28,7 +28,7 @@ function TopBanner() {
                 </div>
                 <div className="icon-close"><button class="close-button">&#10006;</button></div>
             </div>
-            <div className="col-3 search-box-md d-none d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  mx-auto m-2">
+            <div className="col-3 search-box-md d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  mx-auto m-2">
                 <SearchBox className="search-box-md" label="Tìm kiếm" imgSrc={imgSearch} />
             </div>
         </>

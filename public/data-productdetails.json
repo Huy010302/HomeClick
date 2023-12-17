@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "TAMAHA",
+        "imgs": [
+            "../../assets/image/imgDetails.png",
+            "../../assets/image/imgDetails2.png",
+            "../../assets/image/imgDetails3.png",
+            "../../assets/image/imgDetails4.png"
+        ],
+        "sku": "SKU: HCB0001",
+        "price": "29.996.000đ"
+    }
+]

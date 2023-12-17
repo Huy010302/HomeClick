@@ -8,7 +8,7 @@
     }
 }
   
-  @mixin media-breakpoint-down($breakpoint) {
+@mixin media-breakpoint-down($breakpoint) {
     @if map-has-key($breakpoints, $breakpoint) {
       @media (max-width: map-get($breakpoints, $breakpoint) - 0.02) {
         @content;
@@ -18,44 +18,72 @@
     }
 }
 
-.product-sale{
-    @include media-breakpoint-down(lg){
-        flex-direction: column;
+.nav-bar-mobile {
+    @include media-breakpoint-down(md) {
+        padding: 0px 10px;
     }
-
 }
 
-.product-img{
-    @include media-breakpoint-up(lg){
+.design-title {
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+        font-weight: 500;
+        font-family: "Playfair Display";
+        line-height: 50px;
+    }
+}
+
+.search-box-md {
+    @include media-breakpoint-down(sm) {
+        width: 340px;
+        height: 50px;
+    }
+}
+
+.carousel-item img {
+    @include media-breakpoint-down(sm) {
+        height: 600px;
+    }
+}
+
+.product-sale {
+    @include media-breakpoint-down(lg) {
+        flex-direction: column;
+    }
+}
+
+.product-img {
+    @include media-breakpoint-up(lg) {
         width: 712px;
         height: 450px;
     }
 }
 
-.design-item-img{
-    @include media-breakpoint-down(xl){
+.design-item-img {
+    @include media-breakpoint-down(xl) {
         width: 110px;
         height: 110px;
     }
 }
 
-.design-list{
-    @include media-breakpoint-up(md){
+.design-list {
+    @include media-breakpoint-up(md) {
         display: flex;
         justify-content: center;
-        gap:150px;
+        gap: 150px;
         padding-top: 40px;
         padding-bottom: 70px;
     }
 
-    @include media-breakpoint-down(md){
+    @include media-breakpoint-down(md) {
         display: flex;
         justify-content: center;
         gap: 80px;
         padding-top: 40px;
         padding-bottom: 70px;
     }
-    @include media-breakpoint-down(sm){
+
+    @include media-breakpoint-down(sm) {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -65,28 +93,113 @@
     }
 }
 
-.top-banner-content{
-    @include media-breakpoint-down(sm){
+.top-banner-content {
+    @include media-breakpoint-down(sm) {
         flex-direction: column;
     }
 }
 
-.top-footer-content{
+.top-footer {
+    @include media-breakpoint-down(sm) {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+.top-footer-icon {
+    @include media-breakpoint-down(sm) {
+        display: flex;
+        margin-left: 0px;
+    }
+}
+
+.top-footer-content {
     color: #fff;
-    @include media-breakpoint-up(lg){
+    @include media-breakpoint-up(lg) {
         align-items: center;
         gap: 20px;
     }
-    @include media-breakpoint-down(lg){
+    @include media-breakpoint-down(lg) {
         flex-direction: column;
         margin-left: 10px;
-        gap:10px;
-        padding:20px;
+        gap: 10px;
     }
 }
 
-.post-container, .post-container {
-    @include media-breakpoint-down(sm){
+.form-group1 {
+    @include media-breakpoint-down(sm) {
+        width: 340px;
+        height: 50px;
+    }
+}
+
+.button-footer {
+    width: 196px;
+    height: 40px;
+    @include media-breakpoint-down(sm) {
         flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 40px;
+        margin-top: 30px;
+    }
+}
+
+.bottom-footer-container {
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+    }
+}
+
+.post-container {
+    @include media-breakpoint-up(md) {
+        flex-direction: column-reverse;
+    }
+    @include media-breakpoint-down(md) {
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+}
+
+.project-container .post-container {
+    display: flex;
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+    }
+}
+
+.service-container .post-container {
+    display: flex;
+    @include media-breakpoint-up(lg) {
+        flex-direction: row-reverse;
+    }
+}
+
+.post-img img {
+    @include media-breakpoint-up(md) {
+        width: 556px;
+        height: 338px;
+    }
+    @include media-breakpoint-down(md) {
+        width: 378px;
+        height: 268px;
+    }
+    @include media-breakpoint-down(sm) {
+        width: 349.06px;
+        height: 266.93px;
+    }
+}
+
+.post-title {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+
+.carousel-item img {
+    @include media-breakpoint-down(sm) {
+        width: 350px;
+        height: 267.65px;
     }
 }

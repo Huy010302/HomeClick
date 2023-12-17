@@ -5,7 +5,7 @@ export default function FilterProduct() {
         <>
             <div className="container filter-product">
                 <div className="row" id="filter">
-                    <form>
+                    <form className= "form">
                         <div className="form-group">
                             <select data-filter="make" className="filter-make filter form-control">
                                 <option value>Loại phòng</option>

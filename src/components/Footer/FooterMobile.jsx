@@ -5,7 +5,7 @@ import imgArrowRight from "../../assets/image/imgArrowRight.png"
 
 function FooterMobile() {
     <>
-                <footer className="mobile-footer container-fluid d-lg-none p-3">
+            <footer className="mobile-footer container-fluid d-lg-none p-3">
                 <div className="row footer-tree">
                     <div className="footer-item">
                         <div className="title dropdown-trigger">
@@ -105,4 +105,4 @@ function FooterMobile() {
     </>
 }
 
-export default FooterMobile();
+export default FooterMobile;

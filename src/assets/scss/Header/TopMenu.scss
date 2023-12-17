@@ -17,8 +17,49 @@
 .icon-item{
     width: 20px;
     height: 15px;
-    margin:20px 10px;
+    margin:15px 20px;
 }
+
+
+.login-registration {
+    position: absolute;
+    background-color: #fff; /* Màu nền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+    z-index: 1;
+    min-width: 139px;
+    text-align: center;
+    bottom: -110%;
+    left: -20px;
+}
+// .tooltip {
+//     position: relative;
+//     display: inline-block;
+//     cursor: pointer;
+// }
+
+//   .tooltip .tooltiptext {
+//     visibility: hidden;
+//     width: 120px;
+//     background-color: #333;
+//     color: #fff;
+//     text-align: center;
+//     border-radius: 6px;
+//     padding: 5px;
+//     position: absolute;
+//     z-index: 1;
+//     bottom: 25%; /* Hiển thị phía trên phần tử gốc */
+//     left: 50%;
+//     margin-left: -60px;
+//     opacity: 0;
+//     transition: opacity 0.3s;
+//   }
+
+//   .tooltip:hover .tooltiptext {
+//     visibility: visible;
+//     opacity: 1;
+//   }
+  
+  
 .dashed-line{
     border: 1px solid #DCDCDC;
 }
